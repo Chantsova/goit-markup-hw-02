@@ -1,0 +1,62 @@
+:root {
+    --ligth-blue: rgba(33, 150, 243, 1);
+
+    --black: rgba(0, 0, 0, 1);
+    --graphyt: rgba(33, 33, 33, 1);
+
+    --light-grey: rgba(117, 117, 117, 1);
+    --dark-grey: rgba(47, 48, 58, 1);
+
+    --white: rgba(255, 255, 255, 1);
+    --white-op06: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--white);
+}
+
+.logo {
+    color: var(--ligth-blue);
+}
+
+.navigation {
+    color: var(--graphyt);
+}
+
+.navigation:hover,
+.navigation:focus {
+    color: var(--ligth-blue);
+}
+
+.contacts {
+    color: var(--light-grey);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--ligth-blue);
+}
+
+.office-address {
+    color: var(--white);
+}
+
+.email-tel {
+    color: var(--white-op06);
+}
+
+address {
+    font-style: normal;
+}
+
+footer {
+    background-color: var(--dark-grey);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

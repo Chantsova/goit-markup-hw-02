@@ -1,0 +1,32 @@
+.hero {
+    background-color: var(--dark-grey);
+}
+
+.title-hero {
+    color: var(--white);
+}
+
+.order-button {
+    background: var(--ligth-blue);
+    color: var(--white);
+}
+
+.adventages-title {
+    color: var(--graphyt);
+}
+
+.adventages-text {
+    color: var(--light-grey);
+}
+
+h2 {
+    color: var(--graphyt);
+}
+
+.name-staff {
+    color: var(--graphyt);
+}
+
+.position-staff {
+    color: var(--light-grey);
+}
