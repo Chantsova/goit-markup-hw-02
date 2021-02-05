@@ -16,6 +16,10 @@
     background: var(--light-blue);
 }
 
+.buttons-projects {
+    text-align: center;
+}
+
 .projects {
     background-color: var(--white);
     border: 1px solid var(--border-grey);

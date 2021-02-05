@@ -43,6 +43,10 @@ header {
     color: var(--light-blue);
 }
 
+.site-nav .navigation.current {
+    color: var(--light-blue);
+}
+
 .navigation {
     color: var(--graphyt);
     font-weight: 500;
