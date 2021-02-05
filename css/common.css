@@ -1,10 +1,11 @@
 :root {
-    --ligth-blue: rgba(33, 150, 243, 1);
+    --light-blue: rgba(33, 150, 243, 1);
 
     --black: rgba(0, 0, 0, 1);
     --graphyt: rgba(33, 33, 33, 1);
 
     --light-grey: rgba(117, 117, 117, 1);
+    --grey: rgba(245, 244, 250, 1);
     --dark-grey: rgba(47, 48, 58, 1);
 
     --white: rgba(255, 255, 255, 1);
@@ -15,8 +16,12 @@ body {
     background-color: var(--white);
 }
 
+header {
+    background-color: var(--white);
+}
+
 .logo {
-    color: var(--ligth-blue);
+    color: var(--light-blue);
 }
 
 .navigation {
@@ -25,7 +30,7 @@ body {
 
 .navigation:hover,
 .navigation:focus {
-    color: var(--ligth-blue);
+    color: var(--light-blue);
 }
 
 .contacts {
@@ -34,7 +39,7 @@ body {
 
 .contacts:hover,
 .contacts:focus {
-    color: var(--ligth-blue);
+    color: var(--light-blue);
 }
 
 .office-address {
@@ -53,6 +58,7 @@ footer {
     background-color: var(--dark-grey);
 }
 
+/*Отключено для наглядности*/
 li {
     list-style-type: none;
 }
