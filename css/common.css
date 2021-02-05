@@ -6,6 +6,7 @@
 
     --light-grey: rgba(117, 117, 117, 1);
     --grey: rgba(245, 244, 250, 1);
+    --border-grey: rgba(238, 238, 238, 1);
     --dark-grey: rgba(47, 48, 58, 1);
 
     --white: rgba(255, 255, 255, 1);
@@ -14,6 +15,7 @@
 
 body {
     background-color: var(--white);
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -21,11 +23,32 @@ header {
 }
 
 .logo {
+    color: var(--black);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 31px; /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.logo-footer {
+    color: var(--black);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 31px; /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.logo-web {
     color: var(--light-blue);
 }
 
 .navigation {
     color: var(--graphyt);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .navigation:hover,
@@ -35,11 +58,19 @@ header {
 
 .contacts {
     color: var(--light-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .contacts:hover,
 .contacts:focus {
     color: var(--light-blue);
+}
+
+.hidden-title {
+    visibility: hidden;
 }
 
 .office-address {
@@ -52,6 +83,10 @@ header {
 
 address {
     font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; /* or 171% */
+    letter-spacing: 0.03em;
 }
 
 footer {
