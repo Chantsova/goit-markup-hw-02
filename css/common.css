@@ -43,6 +43,10 @@ header {
     color: var(--light-blue);
 }
 
+.logo-second-part {
+    color: var(--white);
+}
+
 .site-nav .navigation.current {
     color: var(--light-blue);
 }
